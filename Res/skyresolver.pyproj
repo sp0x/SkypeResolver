@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a8fcce8c-1620-488a-bfe0-dac023bfa5c7}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>ipserver.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>vaskyooy cardingsp0x</CommandLineArguments>
+    <InterpreterPath />
+    <InterpreterArguments />
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Compile Include="ipserver.py" />
+    <Compile Include="keypair.py" />
+    <Compile Include="startskypekit.py" />
+    <Content Include="interfaces\skype\python\license_label_C.txt" />
+    <Compile Include="interfaces\skype\python\Skype.py" />
+    <Content Include="interfaces\skype\python\documentation\index.html" />
+    <Content Include="interfaces\skype\python\documentation\skypekit.png" />
+    <Content Include="interfaces\skype\python\documentation\html\api-objects.txt" />
+    <Content Include="interfaces\skype\python\documentation\html\autoanswer-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\autoanswer-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\call-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\call-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\chat-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\chat-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\class-tree.html" />
+    <Content Include="interfaces\skype\python\documentation\html\contacts-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\contacts-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\contactsearch-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\contactsearch-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\conversations-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\conversations-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\help.html" />
+    <Content Include="interfaces\skype\python\documentation\html\identifier-index.html" />
+    <Content Include="interfaces\skype\python\documentation\html\index.html" />
+    <Content Include="interfaces\skype\python\documentation\html\keypair-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\keypair-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\login-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\login-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\module-tree.html" />
+    <Content Include="interfaces\skype\python\documentation\html\redirect.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.GetRequest-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.ScopedLock-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.Object-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.SkypeKit.ResponseListener-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.SkypeKit.EventDispatcher-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.SkypeKit.Parms-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.Request-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.SkypeKit.Event-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.Error-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.InvalidObjectIdError-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.XCallRequest-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.SkypeKit-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.ResponseError-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.SkypeKit.PropertyChange-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Account-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Contact-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.ContactGroup-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.ContactSearch-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Conversation-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.Cached-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\skypekit.ConnectionClosed-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Message-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Participant-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Skype-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Sms-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Transfer-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Video-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\Skype.Voicemail-class.html" />
+    <Content Include="interfaces\skype\python\documentation\html\token-module.html" />
+    <Content Include="interfaces\skype\python\documentation\html\token-pysrc.html" />
+    <Content Include="interfaces\skype\python\documentation\html\epydoc.css" />
+    <Content Include="interfaces\skype\python\documentation\html\epydoc.js" />
+    <Content Include="interfaces\skype\python\documentation\html\crarr.png" />
+    <Content Include="ipc\python\license_label_C.txt" />
+    <Compile Include="ipc\python\skypekit.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="interfaces\" />
+    <Folder Include="interfaces\skype\" />
+    <Folder Include="interfaces\skype\python" />
+    <Folder Include="interfaces\skype\python\documentation" />
+    <Folder Include="interfaces\skype\python\documentation\html" />
+    <Folder Include="ipc\" />
+    <Folder Include="ipc\python" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
