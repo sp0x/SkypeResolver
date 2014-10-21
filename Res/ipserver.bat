@@ -1,1 +1,1 @@
-python ipserver.py vaskyooy cardingsp0x
+python ipserver.py <skype_username> <skype_password>
